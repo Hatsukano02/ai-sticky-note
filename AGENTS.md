@@ -4,6 +4,10 @@
 
 这是一个AI-powered电子墨水屏便利贴硬件项目的文档仓库。主要包含产品需求、技术规范、架构设计等Markdown文档。
 
+**仓库地址**: `https://github.com/Hatsukano02/ai-sticky-note`
+
+**GitHub CLI**: `gh repo view Hatsukano02/ai-sticky-note`
+
 ## 文档规范
 
 ### 文件命名

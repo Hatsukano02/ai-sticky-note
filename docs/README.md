@@ -10,6 +10,9 @@ docs/
 │
 ├── spec/                       # 技术规范（设计+实现）
 │   ├── server-architecture.md  # 服务端架构
+│   ├── database-schema.md      # 数据库设计规范
+│   ├── device-pairing-spec.md  # 设备配对规范
+│   ├── weather-system-spec.md  # 天气系统设计规范
 │   ├── rendering-spec.md       # 渲染框架规范
 │   ├── tools-spec.md           # MCP Tools规范
 │   ├── interaction-spec.md     # 交互规范

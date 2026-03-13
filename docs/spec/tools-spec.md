@@ -150,7 +150,7 @@ async def add_todo(input: AddTodoInput, device_id: str = None) -> dict:
 | `tool_result` | C→S | Tool 执行结果 |
 | `display_update` | S→C | 显示更新 |
 | `sync_request` | C→S | 同步请求 |
-| `heartbeat` | C→S | 心跳包 |
+| `wakeup` | C→S | 设备唤醒（RTC/按键） |
 
 ### 5.2 典型语音流程
 
