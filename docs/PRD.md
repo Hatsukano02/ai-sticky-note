@@ -351,26 +351,28 @@ ESP32-S3
 ```
 ESP32端（轻量客户端）
 ├── 状态机引擎
-├── 页面渲染器
-├── MCP客户端
+├── 页面渲染器（JSON驱动）
+├── WebSocket客户端
 └── 本地存储（SPIFFS）
 
-服务器端（Skill Host）
-├── MCP Server（FastMCP）
-├── 8个预置Skill
-├── LLM Router（豆包/千问/Claude）
-└── 数据存储（SQLite/Redis）
+服务器端（Pydantic AI + MCP）
+├── WebSocket Gateway
+├── 豆包ASR（语音识别）
+├── Pydantic AI Agent（单模型）
+├── MCP Tools（8个页面Tools + PageManager）
+└── 数据存储（MongoDB/SQLite）
 ```
 
-### 5.3 Skill列表
-1. **DateSkill** - 日期显示管理
-2. **WeatherSkill** - 天气数据获取与展示
-3. **TodoSkill** - 待办事项CRUD
-4. **CalendarSkill** - 日历视图与事件
-5. **CountdownSkill** - 倒计时管理
-6. **SolarTermSkill** - 节气计算与显示
-7. **BatterySkill** - 电量监控与预估
-8. **SyncSkill** - 同步控制与状态
+### 5.3 MCP Tools列表
+1. **Date Tools** - 日期显示管理
+2. **Weather Tools** - 天气数据获取与展示
+3. **Todo Tools** - 待办事项CRUD
+4. **Calendar Tools** - 日历视图与事件
+5. **Countdown Tools** - 倒计时管理
+6. **SolarTerm Tools** - 节气计算与显示
+7. **Battery Tools** - 电量监控与预估
+8. **Sync Tools** - 同步控制与状态
+9. **PageManager Tools** - 页面管理（创建/隐藏/列举）
 
 ## 6. 数据模型
 
@@ -420,7 +422,7 @@ ESP32端（轻量客户端）
 
 ## 8. 后续迭代方向
 
-- **扩展Skill生态**：开放Skill开发接口
+- **扩展Tools生态**：开放MCP Tools开发接口
 - **多设备协同**：手机App配置、家庭多设备
 - **智能家居联动**：米家/HomeKit集成
 - **本地LLM**：边缘端轻量推理能力

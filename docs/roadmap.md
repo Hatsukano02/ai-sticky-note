@@ -39,26 +39,26 @@
 
 ## 阶段三：服务器与MCP（第7-9周）
 
-### 3.1 MCP Server搭建
-- [ ] FastMCP框架部署
-- [ ] Skill注册机制
-- [ ] MCP协议实现
+### 3.1 后端服务搭建
+- [ ] FastAPI WebSocket Gateway
+- [ ] 豆包ASR集成
+- [ ] MongoDB/SQLite数据层
 
-### 3.2 8个Skill开发
-- [ ] DateSkill（日期）
-- [ ] WeatherSkill（天气）
-- [ ] TodoSkill（待办）
-- [ ] CalendarSkill（日历）
-- [ ] CountdownSkill（倒计时）
-- [ ] SolarTermSkill（节气）
-- [ ] BatterySkill（电量）
-- [ ] SyncSkill（同步）
+### 3.2 Pydantic AI Agent
+- [ ] Agent框架搭建
+- [ ] 单模型接入（千问/豆包/Kimi/DeepSeek）
+- [ ] System Prompt优化
 
-### 3.3 LLM集成
-- [ ] 豆包API对接
-- [ ] 千问API对接
-- [ ] ASR流式识别
-- [ ] Intent解析
+### 3.3 MCP Tools开发
+- [ ] Date Tools（日期）
+- [ ] Weather Tools（天气）
+- [ ] Todo Tools（待办）
+- [ ] Calendar Tools（日历）
+- [ ] Countdown Tools（倒计时）
+- [ ] SolarTerm Tools（节气）
+- [ ] Battery Tools（电量）
+- [ ] Sync Tools（同步）
+- [ ] PageManager Tools（页面管理）
 
 ## 阶段四：系统集成（第10-11周）
 
