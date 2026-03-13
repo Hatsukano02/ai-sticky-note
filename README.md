@@ -2,7 +2,7 @@
 
 便携式电子墨水屏显示设备，支持语音交互。
 
-![概念图](docs/assets/concept.png)
+![概念图](docs/assets/concept_img.png)
 
 ## 功能
 
