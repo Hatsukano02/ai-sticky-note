@@ -1,3 +1,17 @@
+---
+title: 开发路线图
+description: 项目开发阶段划分、里程碑定义和任务清单
+type: product
+version: "1.0"
+created: "2026-03-13"
+updated: "2026-03-13"
+dependencies:
+  - PRD.md
+related:
+  - ../02-architecture/system-architecture.md
+  - ../02-architecture/database-schema.md
+---
+
 # 开发路线图
 
 ## 阶段一：硬件验证

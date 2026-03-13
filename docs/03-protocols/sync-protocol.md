@@ -1,3 +1,18 @@
+---
+title: 离线模式与数据同步协议
+description: 离线判定、操作队列、同步触发、数据格式、冲突解决、版本管理
+type: protocol
+scope: [backend, device]
+created: "2026-03-13"
+updated: "2026-03-13"
+dependencies:
+  - ../02-architecture/database-schema.md
+  - pairing-protocol.md
+related:
+  - ../04-modules/sync.md
+  - ../04-modules/state-machine.md
+---
+
 # 离线模式与数据同步规范
 
 ## 1. 离线模式定义

@@ -1,3 +1,18 @@
+---
+title: MCP Tools 规范
+description: Tools目录结构、Tool定义示例、所有Tools清单、WebSocket协议、语音意图映射
+type: interface
+scope: [backend]
+created: "2026-03-13"
+updated: "2026-03-13"
+dependencies:
+  - ../02-architecture/system-architecture.md
+related:
+  - ../04-modules/weather.md
+  - ../04-modules/todo.md
+  - ../04-modules/date.md
+---
+
 # MCP Tools 规范
 
 ## 1. Tools 目录结构

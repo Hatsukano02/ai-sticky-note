@@ -1,3 +1,17 @@
+---
+title: 数据库设计规范
+description: 多租户多设备架构下的PostgreSQL+Redis数据结构设计，含用户隔离、设备管理、配对流程
+type: architecture
+scope: [backend]
+created: "2026-03-13"
+updated: "2026-03-13"
+dependencies: []
+related:
+  - system-architecture.md
+  - ../03-protocols/pairing-protocol.md
+  - ../03-protocols/sync-protocol.md
+---
+
 # 数据库设计规范
 
 ## 1. 概述

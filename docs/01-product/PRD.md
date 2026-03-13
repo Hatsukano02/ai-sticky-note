@@ -1,3 +1,16 @@
+---
+title: AI便利贴 - 产品需求文档
+description: 定义产品核心价值、用户故事、功能需求和非功能需求
+type: product
+version: "1.0"
+status: Draft
+created: "2026-03-13"
+updated: "2026-03-13"
+dependencies: []
+related:
+  - roadmap.md
+---
+
 # AI便利贴 - 产品需求文档
 
 | Field | Value |

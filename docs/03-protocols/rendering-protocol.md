@@ -1,3 +1,16 @@
+---
+title: JSON Schema 渲染协议
+description: 跨平台嵌入式UI渲染框架，定义JSON Schema格式、组件系统、布局引擎
+type: protocol
+scope: [device]
+created: "2026-03-13"
+updated: "2026-03-13"
+dependencies: []
+related:
+  - ../04-modules/ui-display.md
+  - ../06-interface/mcp-tools.md
+---
+
 # JSON Schema 渲染框架规范
 
 ## 1. 概述

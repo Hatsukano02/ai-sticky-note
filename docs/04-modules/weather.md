@@ -1,3 +1,17 @@
+---
+title: 天气系统设计规范
+description: 基于和风天气API，支持IP自动定位+WebUI手动设置，后端代理请求并提供缓存
+type: module
+scope: [backend, device]
+created: "2026-03-13"
+updated: "2026-03-13"
+dependencies:
+  - ../03-protocols/pairing-protocol.md
+  - ../02-architecture/database-schema.md
+related:
+  - ../06-interface/mcp-tools.md
+---
+
 # 天气系统设计规范
 
 ## 1. 概述

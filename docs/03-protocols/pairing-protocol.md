@@ -1,4 +1,19 @@
-# 设备配对规范
+---
+title: 设备配对协议
+description: ESP32首次启动、AP模式配网、配对码生成、MQTT配对流程、安全机制
+type: protocol
+scope: [backend, device, network]
+created: "2026-03-13"
+updated: "2026-03-13"
+dependencies:
+  - ../02-architecture/system-architecture.md
+  - ../02-architecture/database-schema.md
+related:
+  - sync-protocol.md
+  - ../04-modules/weather.md
+---
+
+# 设备配对协议
 
 ## 1. 概述
 

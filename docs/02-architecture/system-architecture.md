@@ -1,3 +1,20 @@
+---
+title: 服务端架构规范
+description: 五层架构设计：WebUI、后端服务、Agent层、管理层、渲染层，含RTC休眠策略
+type: architecture
+scope: [backend, device]
+created: "2026-03-13"
+updated: "2026-03-13"
+dependencies:
+  - database-schema.md
+  - hardware-architecture.md
+related:
+  - ../03-protocols/pairing-protocol.md
+  - ../03-protocols/sync-protocol.md
+  - ../03-protocols/rendering-protocol.md
+  - ../06-interface/mcp-tools.md
+---
+
 # 服务端架构规范
 
 ## 1. 五层架构设计
