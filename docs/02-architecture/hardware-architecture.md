@@ -20,8 +20,19 @@ related:
 |------|-----------|------|----------|----------|
 | 主控 | ESP32-S3-WROOM-1-N16R8 | 1 | ¥13.84+¥1邮费 | 淘宝 |
 | 墨水屏 | Hink-E042A48-A1 24pin 黑白红三色4.2寸400×300 | 1 | ¥23 | 淘宝 |
+| 麦克风 | INMP441 I2S MEMS | 1 | ¥4.3 | 淘宝 |
+| 扬声器 | 8Ω 1W 迷你喇叭 | 1 | ¥2.5 | 淘宝 |
+| 功放 | MAX98357A I2S 3W | 1 | ¥3 | 淘宝 |
+| 电池 | 3.7V 2000mAh 锂电池 505060/103450 | 1 | ¥5.9-9.8 | 淘宝 |
+| 充电模块 | TP4057 SOT-23-6 | 1 | ¥2.53/5个 | 淘宝 |
+| 按钮 | 轻触开关 6x6x5mm | 1 | ¥0.5 | 淘宝 |
+| 磁吸 | 圆形磁铁 20x3mm | 2 | ¥2 | 淘宝 |
 
 **墨水屏详细规格：**
+**参考来源：**
+- Waveshare 4.2inch e-Paper Module Manual: https://www.waveshare.com/wiki/4.2inch_e-Paper_Module_Manual
+- EastRising ER-EPD042A1-1 规格书: https://www.buydisplay.com/download/manual/ER-EPD042A1-1_Datasheet.pdf
+- Hink 4.2" EPD 通用规格: https://www.texim-europe.com/getfile.aspx?id=108187
 
 | 参数 | 数值 |
 |------|------|
@@ -33,18 +44,8 @@ related:
 | FPC间距 | 0.5mm |
 | 接口类型 | SPI |
 
-**参考来源：**
-- Waveshare 4.2inch e-Paper Module Manual: https://www.waveshare.com/wiki/4.2inch_e-Paper_Module_Manual
-- EastRising ER-EPD042A1-1 规格书: https://www.buydisplay.com/download/manual/ER-EPD042A1-1_Datasheet.pdf
-- Hink 4.2" EPD 通用规格: https://www.texim-europe.com/getfile.aspx?id=108187
 
-| 麦克风 | INMP441 I2S MEMS | 1 | ¥4.3 | 淘宝 |
-| 扬声器 | 8Ω 1W 迷你喇叭 | 1 | ¥2.5 | 淘宝 |
-| 功放 | MAX98357A I2S 3W | 1 | ¥3 | 淘宝 |
-| 电池 | 3.7V 2000mAh 锂电池 505060/103450 | 1 | ¥5.9-9.8 | 淘宝 |
-| 充电模块 | TP4057 SOT-23-6 | 1 | ¥2.53/5个 | 淘宝 |
-| 按钮 | 轻触开关 6x6x5mm | 1 | ¥0.5 | 淘宝 |
-| 磁吸 | 圆形磁铁 20x3mm | 2 | ¥2 | 淘宝 |
+
 
 ## 2. 电源管理
 
