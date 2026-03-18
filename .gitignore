@@ -30,3 +30,4 @@ node_modules/
 
 # Archive working files
 docs/archive/working/
+docs/.DS_Store
